@@ -1,0 +1,94 @@
+@font-face{
+  font-family: avenirNext;
+  src: url(/public/fonts/Avenir_Next.ttc);
+}
+
+body {
+  font-family: avenirNext;
+}
+
+.navbar-header a {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.home-content {
+  margin: 0 auto 40px;
+}
+
+.home-article {
+  // border: 1px solid grey;
+}
+
+.home-title {
+  font-weight: bolder;
+}
+.navnav {
+  background-color: #ffffff;
+  border: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 600px;
+  }
+}
+
+.page-header h1 {
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px){
+  .page-header h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .page-header h1 {
+    font-size: 36px;
+  }
+}
+
+footer {
+  margin: 0 auto;
+  border: 1px solid #808080;
+  background-color: #292e2d;
+}
+
+footer h3 {
+  color: #ffffff;
+  font-weight: bolder; 
+}
+
+footer p {
+  color: #ffffff;
+}
+
+.contactUs {
+  margin: 0 auto;
+}
+
+.contactUs input {
+  color: #ffffff;
+}
+
+
+@media screen and (min-width: 768px) {
+  .contactUs {
+    width: 600px;
+  }
+}
+
+
+.form-group input {
+  border-width: 0 0 2px 0;
+  border-bottom-style: solid;
+  border-radius: initial;
+} 
+
+.form-control {
+  background-color: #292e2d;
+}
